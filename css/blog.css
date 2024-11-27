@@ -157,3 +157,8 @@ font-size: 13px;
   text-decoration: underline; /*underline when hover mouse*/
 }
 
+.popup-img img { 
+  height: 300px; width: 300px; overflow: hidden; 
+  object-fit: cover;
+}
+
