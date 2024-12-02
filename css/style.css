@@ -1,4 +1,3 @@
-
 /*
   Theme Name: Folio
   Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
@@ -27,7 +26,12 @@ body {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -60,7 +64,8 @@ a:hover {
   transition: all 0.5s ease-in-out 0s;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #333;
   text-decoration: underline;
 }
@@ -69,7 +74,7 @@ nav ul li a {
   padding: 2px 0 0 0;
   position: relative;
   display: block;
-  font-size: 12px;
+  font-size: 13px;
   color: #999999;
   letter-spacing: 0.1em;
   font-weight: 500;
@@ -105,14 +110,15 @@ p {
   border: medium none;
   border-radius: 0;
   color: #fff;
-  font-size: 12px;
+  font-size: 13px;
   height: 50px;
   line-height: 50px;
   padding: 0 30px;
   text-transform: uppercase;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
   color: #fff;
 }
 
@@ -121,7 +127,8 @@ p {
 }
 
 .section-title {
-  margin-bottom: 70px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .section-title h2 {
@@ -135,7 +142,7 @@ p {
   border: 1px solid #999;
   border-radius: 0;
   color: #999999;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
   height: 50px;
   letter-spacing: 0.1em;
@@ -332,6 +339,7 @@ nav ul li a {
 .owl-item {
   float: left;
 }
+
 .services-block span {
   margin: 10px 0;
   position: relative;
@@ -356,7 +364,7 @@ nav ul li a {
 }
 
 
-.services-carousel  .owl-stage-outer {
+.services-carousel .owl-stage-outer {
   overflow: hidden;
 }
 
@@ -422,7 +430,8 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-#portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
+#portfolio .portfolio-list .nav li:hover,
+#portfolio .portfolio-list .nav li.filter-active {
   color: #333;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -451,7 +460,8 @@ nav ul li a {
 /*  Journal
 /*-----------------------------------------------------------------------------------*/
 
-#journal,  #journal-blog {
+#journal,
+#journal-blog {
   height: auto;
   width: 100%;
   background: #f7f7f7;
@@ -531,12 +541,13 @@ nav ul li a {
   padding-bottom: 10px;
 }
 
-#contact input, #contact textarea {
+#contact input,
+#contact textarea {
   width: 100%;
 }
 
 
-#contact  #sendmessage {
+#contact #sendmessage {
   color: #18d26e;
   border: 1px solid #18d26e;
   display: none;
@@ -546,7 +557,7 @@ nav ul li a {
   margin: 15px;
 }
 
-#contact  #errormessage {
+#contact #errormessage {
   color: red;
   display: none;
   border: 1px solid red;
@@ -556,7 +567,9 @@ nav ul li a {
   margin: 15px;
 }
 
-#contact #sendmessage.show, #contact #errormessage.show, #contact .show {
+#contact #sendmessage.show,
+#contact #errormessage.show,
+#contact .show {
   display: block;
 }
 
@@ -618,7 +631,7 @@ nav ul li a {
 }
 
 #footer p {
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.1em;
   font-weight: 500;
   margin-top: 0;
@@ -673,6 +686,11 @@ nav ul li a {
   mask-size: 100% 100%;
 }
 
-.fs-act{
-  font-size: 11px;
+.fs-act {
+  font-size: 13px;
+}
+
+.activity-link {
+  background-color: green;
+  color: white;
 }

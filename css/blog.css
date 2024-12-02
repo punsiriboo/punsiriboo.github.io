@@ -60,7 +60,7 @@
 }
 
 .post-meta ul li {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: normal;
   margin-left: 8px;
   margin-right: 8px;
@@ -143,9 +143,11 @@ blockquote {
   border: none;
   border-left: 4px solid #333;
 }
+
 .entry-comments span {
-font-size: 13px;
+  font-size: 13px;
 }
+
 /*Optional specific styling*/
 .entry-comments span a {
   text-decoration: none;
@@ -154,11 +156,13 @@ font-size: 13px;
 }
 
 .entry-comments span a:hover {
-  text-decoration: underline; /*underline when hover mouse*/
+  text-decoration: underline;
+  /*underline when hover mouse*/
 }
 
-.popup-img img { 
-  height: 300px; width: 300px; overflow: hidden; 
+.popup-img img {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
   object-fit: cover;
 }
-
