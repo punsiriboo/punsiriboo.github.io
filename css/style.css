@@ -999,3 +999,17 @@ ion-card-content {
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
 }
+.my-story {
+  padding-right: 0px;
+  padding-left: 0px;
+  flex: none;
+}
+
+.my-story p{
+  font-size: 13px;
+  letter-spacing: normal;
+  font-family: 'Poppins';
+  padding-right: 0px;
+  padding-left: 0px;
+  font-weight: 100;
+}
