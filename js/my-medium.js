@@ -28,7 +28,6 @@ const articles_data = [
 ];
 
 
-
 // Function to create a service block with a link
 function createServiceBlock(imgSrc, title, description, link) {
     const servicesBlock = document.createElement('div');

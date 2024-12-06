@@ -20,10 +20,6 @@ const youtube_data = [
         title: "ChaiyoGCP Season 4 - Code Along Session",
         imgSrc: "https://i.ytimg.com/vi/NUFVP-bAi_s/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDErI2USTeNur-B2irrdc3uRKw5Jg"
     }
-
-
-
-
 ];
 
 
