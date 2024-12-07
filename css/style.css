@@ -1025,3 +1025,11 @@ ion-card-content {
   width: 100%;
   height: -webkit-fill-available;
 }
+
+#div-my-activity img {
+  width: 100%;
+}
+
+.entry-activity-date {
+  display: block;
+}
