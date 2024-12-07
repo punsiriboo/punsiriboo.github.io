@@ -4,7 +4,7 @@ const activities = [
         title: '[Data เบ็ดเตล็ด (965 followers) and DataHungry (5.1 K followers)] Data & AI Bootcamp 2024',
         date: '31 Nov - 1 Dec 2024',
         description:
-            'As an instructor, hosted a 2-day offline hands-on class focusing on modern Data and AI technologies. Tools included <b>Docker, Apache Airflow, Google Cloud Storage, BigQuery, Gemini Code Assist, Vertex AI Agent Builder, and LINE Messaging API.</b> The bootcamp emphasized building modern data pipelines, accelerating development with GenAI tools, and creating AI agents for seamless data interaction.',
+            'As an instructor, hosted a 2-day offline hands-on class focusing on modern <b>Data and AI</b> technologies. Tools included <b>Docker, Apache Airflow, Google Cloud Storage, BigQuery, Data Canvas, BigQuery ML, Gemini Code Assist, Vertex AI Agent Builder, and LINE Messaging API.</b> The bootcamp emphasized building modern data pipelines, accelerating development with <b>Generative AI tools</b>, and creating AI agents for seamless data interaction.',
         links: [
             { text: 'Event Link', href: 'https://www.eventpop.me/e/60322/data-ai-boostcamp?fbclid=IwY2xjawHAvbdleHRuA2FlbQIxMAABHXtBmKaHBoWCanh4i-nLvL7aOiunjejYTOQ5KpXeUC9knRkKjsufynu5vA_aem_Ip4B2w9f6_8F0hG7Y79wtQ' },
             { text: 'GitHub', href: 'https://github.com/wuttichai-hung/data-ai-bootcamp' },
@@ -12,7 +12,7 @@ const activities = [
         embedResource: "<iframe class='speakerdeck-iframe' frameborder='0' src='https://speakerdeck.com/player/0667ef6003cc425aaf957772659adab9' title='[Data เบ็ดเตล็ด x DataHungry] Data &amp; AI Bootcamp 2024' allowfullscreen='true' style='border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;' data-ratio='1.7777777777777777'></iframe>",
     },
     {
-        title: 'GDG DevFest Bangkok 2024 - The Future of Retail E-commerce with Gemini AI',
+        title: 'GDG DevFest Bangkok 2024 - Next-Gen Retail Chatbot: Combining Vertex Agent Builder, Vertex Search and Gemini Multimodal with LINE for Smarter Product Search',
         date: '17 Nov 2024',
         description:
             'Showcased how <b>Vertex AI Agent Builder, Vertex AI Search and Gemini Multimodal</b> enhance retail e-commerce using <b>Retrieval-Augmented Generation (RAG)</b>. Demonstrated LINE Chatbot features including general product inquiries, text-based product search, and image-based product search.',
@@ -22,7 +22,7 @@ const activities = [
         embedResource:"<iframe class='speakerdeck-iframe' frameborder='0' src='https://speakerdeck.com/player/a3d0876c197846ba8ed1965f372dcd1c' title='[GDG DevFest Bangkok 2024] - The Future of Retail E-commerce with Gemini AI' allowfullscreen='true' style='border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;' data-ratio'1.7777777777777777'></iframe>"
     },
     {
-        title: '[LINE THAILAND DEVELOPER CONFERENCE 2024] - The Future of Retail E-commerce with Gemini AI',
+        title: '[LINE THAILAND DEVELOPER CONFERENCE 2024] - Next-Gen Retail Chatbot: Combining Vertex Agent Builder, Vertex Search and Gemini Multimodal with LINE for Smarter Product Search',
         date: '2 Nov 2024',
         description:
             'Similar to GDG DevFest, demonstrated <b>Vertex AI Agent Builder, Vertex AI Search and Gemini</b>’s capabilities for retail e-commerce, focusing on enhancing user experience through <b>Retrieval-Augmented Generation (RAG)</b> and interactive chatbot features.',
@@ -35,9 +35,9 @@ const activities = [
         title: '[Data TH - Data Science ชิลชิล (65K followers)] - Special Live: Data Quality Assurance in Apache Airflow',
         date: '29 Oct 2024',
         description:
-            'Live session on ensuring data quality using Apache Airflow. Topics included key metrics, testing, validation, and reconciliation techniques.',
+            'Live session on ensuring data quality using <b>Apache Airflow</b>. Topics included key metrics, testing, validation, and reconciliation techniques. In the session, I demo how to create data quality in Apache Airflow using <b> Commoms SQL Providers and Greate Expectations</b> to write data validation rules.',
         links: [
-            { text: 'LinkedIn Post', href: '#' },
+            { text: 'LinkedIn Post', href: 'https://www.linkedin.com/posts/punsiri-boonyakiat-13909786_special-live-data-quality-assurance-in-activity-7257378314783203329-RoVZ?utm_source=combined_share_message&utm_medium=member_desktop_web' },
         ],
         embedResource: "<iframe class='speakerdeck-iframe' frameborder='0' src='https://speakerdeck.com/player/ac07d8c6dedc48dbbd5adb260f59e609' title='[DATA TH - Bonus Class] Data Quality in Apache Airflow' allowfullscreen='true' style='border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;' data-ratio='1.7777777777777777'></iframe>",
     },
@@ -45,18 +45,17 @@ const activities = [
         title: '[GDG Cloud Bangkok 2024] - Gemini Code Assisted for Developer Productivity',
         date: '26 Oct 2024',
         description:
-            'Demonstrated Gemini Code Assist to accelerate development, automate workflows, and create projects like a Hogwarts-themed prompt integrated with the LINE Messaging API.',
+            'I demonstrated the capabilities of <b>Gemini Code Assist</b>, an AI-powered tool designed to accelerate development, automate workflows. The demo featured a fun use case: writing a prompt for Gemini to create a website that randomly assigns participants to Hogwarts houses from Harry Potter, with the assigned house broadcasted via the LINE Messaging API showcasing how to use <b>prompt strategies</> to generate code, autocomplete, create unit tests, generate diagrams, and produce detailed documentation.',
         links: [
-            { text: 'Event Link', href: '#' },
-            { text: 'Facebook Live Link', href: '#' },
+            { text: 'Event Link', href: 'https://www.eventpop.me/e/56359' },
+            { text: 'Facebook Live Link', href: 'https://www.facebook.com/wtmbkk/videos/892976322801553' },
         ],
         embedResource: "<iframe class='speakerdeck-iframe' frameborder='0' src='https://speakerdeck.com/player/872f5fb856ef4ddb8e381800576c6a7b' title='[Technologistra] Gemini Code Assist for Developer Productivity' allowfullscreen='true' style='border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;' data-ratio='1.7777777777777777'></iframe>",
     },
     {
         title: '[Skooldio Special Class] - Gemini Code Assist for Data Engineering',
         date: '8 Oct 2024',
-        description:
-            'Hands-on workshop showcasing Gemini Code Assist for automating data engineering tasks, setting up BigQuery, Docker, and Airflow workflows.',
+        description: 'The workshop is hands-on to showcase <b>Gemini Code Assist</b> for automating data engineering tasks such as DAG generation, code completion, and documentation, while guiding participants to set up BigQuery, Docker, and codespaces to manage <b>Airflow DAGs</b>, generate code, write tests, create documentation, and validate data, enhancing their Data Engineering workflows with Gemini\'s capabilities',
         links: [
             { text: 'Skooldio Course Link', href: 'https://landing.skooldio.com/data-engineering-bootcamp' },
             { text: 'Poster Link', href: 'https://www.linkedin.com/feed/update/urn:li:activity:7243211508212506626/' },
@@ -68,15 +67,14 @@ const activities = [
         title: 'Data เบ็ดเตล็ด Live (965 followers) - Apache Airflow Zero to One',
         date: '5 Sep 2024',
         description:
-            'Live session demonstrating Apache Airflow’s workflow orchestration capabilities for automating ETL processes.',
+            'The session demos <b>Apache Airflow</b>, an open-source tool for orchestrating workflows. It allows you to create and manage complex data pipelines with scheduling and monitoring features. Airflow uses Directed Acyclic Graphs (DAGs) to define the sequence of tasks. Each task in a DAG represents a step in the workflow. This makes it ideal for automating <b>ETL</b> processes and data engineering tasks',
         links: [{ text: 'Facebook Live Link', href: '#' }],
         embedResource: "<iframe class='speakerdeck-iframe' frameborder='0' src='https://speakerdeck.com/player/17349a9cf2bd46c4960022faba86e9f1' title='Building Data Pipeline with Apache Airflow (101)' allowfullscreen='true' style='border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;' data-ratio='1.7777777777777777'></iframe>",
     },
     {
         title: 'Data เบ็ดเตล็ด Live (965 followers) - Gemini in BigQuery and BigQuery Data Canvas',
         date: '13 Aug 2024',
-        description:
-            'Demonstrated <b>Gemini in BigQuery</b> for query generation and completio. I also demonstrate <b>BigQuery Data Canvas</b> for data explository analysis.',
+        description:'The talk highlights two key features: <b>Gemini in BigQuery and Data Canvas</b>. Gemini in BigQuery offers insights by generating SQL. Data Canvas streamlines the data analysis process by enabling dataset searches using keywords, generating SQL queries based on user prompts, making data analysis more efficient. I am also providing a prompt example and strategy for better data analysis results',
         links: [{ text: 'Facebook Live Link', href: '#' }],
         embedResource: "<img src='images/portfolio/data-bed-1.png' alt='img'>",
     },
@@ -105,7 +103,7 @@ const activities = [
         title: '[Road to Data Engineer DataTH] - How to be a Data Engineer in 2024',
         date: '27 April 2024',
         description:
-            'This event will guide aspiring and current professionals on becoming a Data Engineer in 2024. Participants will learn about the essential skills, tools, and best practices needed in the evolving field of data engineering. The session will cover key industry trends, practical tips for career advancement, and insights into the future landscape of data engineering roles.',
+            'This event will guide aspiring and current professionals on becoming a <b>Data Engineer</b> in 2024. Participants will learn about the essential skills, tools, and best practices needed in the evolving field of data engineering. The session will cover key industry trends, practical tips for career advancement, and insights into the future landscape of data engineering roles.',
         links: [
             { text: 'Facebook Link', href: '#' },
         ],
@@ -116,7 +114,7 @@ const activities = [
         title: '[National Telecom Data & AI Hackathon] - Generative AI with Gemini',
         date: '23 April 2024',
         description:
-            'As a Hackathon mentor, I had a chance to teach ML unsupervised techniques and also generative AI. The Generative AI is based on <b>Gemini Multimodal</b>. The session included hands-on teaching on multimodal prompts, best practices in <b>Prompt design, and techniques to write efficient prompts using Gemini</b> AI for maximum effectiveness.',
+            'As a Hackathon mentor, I had a chance to teach <b>unsupervised Machine Learning</b> techniques and also <b>Generative AI</b>. The Generative AI is based on <b>Gemini Multimodal</b>. The session included hands-on teaching on multimodal prompts, best practices in <b>Prompt design, and techniques to write efficient prompts using Gemini</b> AI for maximum effectiveness.',
         links: [
             { text: 'Linkedin Post', href: '#' },
         ],
@@ -138,9 +136,9 @@ const activities = [
         title: '[Data Rockie Talk - 170K followers] - Data Pipeline with Airflow 101',
         date: '25 February 2024',
         description:
-            'The session demos Apache Airflow, an open-source tool for orchestrating workflows. It allows you to create and manage complex data pipelines with scheduling and monitoring features. Airflow uses Directed Acyclic Graphs (DAGs) to define the sequence of tasks. Each task in a DAG represents a step in the workflow. This makes it ideal for automating ETL processes and data engineering tasks.',
+            'The session demos <b>Apache Airflow</b>, an open-source tool for orchestrating workflows. It allows you to create and manage complex data pipelines with scheduling and monitoring features. Airflow uses Directed Acyclic Graphs (DAGs) to define the sequence of tasks. Each task in a DAG represents a step in the workflow. This makes it ideal for automating ETL processes and data engineering tasks.',
         links: [
-            { text: 'Facebook Live Link', href: '#' },
+            { text: 'Facebook Live Link', href: 'https://www.facebook.com/watch/live/?ref=search&v=819434863328252' },
         ],
         embedResource: "<iframe width='560' height='315' src='https://www.youtube.com/embed/zQSjgStNzIw?si=ISc6oWFepRabbBRb' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>",
     },

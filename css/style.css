@@ -1021,13 +1021,9 @@ ion-card-content {
   font-weight: 100;
 }
 
-#div-my-activity iframe {
+#div-my-activity iframe, #div-my-activity img {
   width: 100%;
   height: -webkit-fill-available;
-}
-
-#div-my-activity img {
-  width: 100%;
 }
 
 .entry-activity-date {
